@@ -1,0 +1,6 @@
+1) Navigation Bar      #nav
+- 2) landing Page      #accuil
+3) About-me            #moi
+5) Projects            #projects
+7) Contact             #contact
+- 8) footer            #footer
