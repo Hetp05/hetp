@@ -2,7 +2,7 @@
     font-family: 'SF Pro';
     font-style: normal;
     font-weight: 400;
-    src: url(https://github.com/Hetp05/Personal-Asserts/raw/main/SF-Pro.ttf) format('tff');
+    src: url(https://github.com/Hetp05/Personal-Asserts/blob/main/SF-Pro.ttf) format('tff');
 }
 
 header.header {
@@ -75,6 +75,12 @@ hr.solid {
     
     background-image: url(https://media4.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif);
     height: 300px;
+    background-repeat:no-repeat;
+}
+
+.cc{
+    color: #bbb;
+    font-size: 10px;
 }
 
 .contacts-section {
@@ -118,4 +124,8 @@ img {
 
 footer {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.screenshot {
+    display: flex;
 }
