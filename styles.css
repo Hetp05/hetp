@@ -2,7 +2,7 @@
     font-family: 'SF Pro';
     font-style: normal;
     font-weight: 400;
-    src: url(https://github.com/Hetp05/Personal-Asserts/blob/main/SF-Pro.ttf) format('tff');
+    src: url("https://github.com/Hetp05/Personal-Asserts/blob/main/SF-Pro.ttf") format('tff');
 }
 
 header.header {
