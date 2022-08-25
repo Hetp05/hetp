@@ -1,8 +1,15 @@
 @font-face {
-    font-family: 'SF Pro';
-    src: url('SF-Pro.otf') format('opentype');
+    font-family: 'SF Pro Display';
+    src: url('assets/fonts/SF-Pro-Display-Regular.otf') format('opentype');
     font-style: normal;
     font-weight: 400;
+}
+
+@font-face {
+    font-family: 'SF Pro Rounded';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://github.com/Hetp05/Personal-Asserts/blob/main/SF-Pro-Rounded-Regular.otf) format('Opentype');
 }
 
 /* Navigation Bar */
@@ -36,17 +43,21 @@ nav.nav li a {
     margin-top: 5px;
 }
 
-/* Header Section */
-
 header.header {
     display: flex;
     align-items: center;
-    font-family: SF Pro;
+    font-family: SF Pro Display;
 }
+
+h1, h2 {
+    font-family: 'SF Pro Rounded';
+}
+
+/* Header Section */
 
 .about-me-section {
     background-color: rgb(49, 167, 196);
-    font-family: SF Pro;
+    font-family: SF Pro Display;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 10px;
@@ -70,7 +81,7 @@ hr.solid {
     padding-bottom: 5px;
     padding-left: 10px;
     padding-right: 10px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'SF Pro Display';
 }
 
 .cc{
@@ -78,15 +89,18 @@ hr.solid {
     font-size: 10px;
 }
 
+/* blockquote {
+    background-color: rgb(49, 167, 196);
+} */
 /* Projects Section */
 
 .check-list {
-    font-family: 'SF Pro';
+    font-family: 'SF Pro Display';
     color: green;
 }
 
 .not-check-list {
-    font-family: 'SF Pro';
+    font-family: 'SF Pro Display';
     color: red;
 }
 
@@ -95,14 +109,14 @@ hr.solid {
     padding-bottom: 5px;
     padding-left: 10px;
     padding-right: 10px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'SF Pro Display';
 }
 
 /* Contacts Section */
 
 .contacts-section {
     background-color: rgb(49, 167, 196);
-    font-family: 'SF Pro';
+    font-family: 'SF Pro Display';
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 10px;
@@ -121,12 +135,6 @@ hr.solid {
     color: rgb(0, 0, 0);
 }
 
-/* Footer Section */
-
-footer {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
 /* Etc.. */
 
 .link {
@@ -138,7 +146,202 @@ img {
     height: 200px;
     display: flex;
 }
+
 a {
     text-decoration: none;
     color: black;
+}
+
+.heading-link {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+/* New Section*/
+
+.news-section {
+  padding-bottom: 20px;
+}
+
+.news-text {
+  padding-bottom: 20px;
+  font-family: 'SF Pro Display';
+}
+
+.blog-img {
+    max-width: 100%;
+    max-height: 80%;
+    object-fit: cover;
+    padding-bottom: 20px;
+}
+
+/* Footer Section */
+
+footer {
+    font-family: 'SF Pro Display';
+}
+
+.site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color: red;
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
 }

@@ -2,7 +2,8 @@
     "grammarly.selectors": [
         {
             "language": "html",
-            "scheme": "vscode-vfs"
+            "scheme": "file",
+            "pattern": "index1.html"
         }
     ]
 }

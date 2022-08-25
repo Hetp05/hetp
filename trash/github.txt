@@ -1,0 +1,111 @@
+<!-- Don't Judge-->
+    <!-- <div>
+        <head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><style>
+            
+            html,
+            body {
+                margin: 0;
+                padding: 0;
+            }
+            @media only screen {
+                body {
+                    margin: 2em auto;
+                    max-width: 900px;
+                }
+            }
+
+            a,
+            a.visited {
+                color: inherit;
+                text-decoration: underline;
+            }
+            
+            h1 {
+                font-size: 1.875rem;
+                margin-top: 1.875rem;
+            }
+            
+            h2 {
+                font-size: 1.5rem;
+                margin-top: 1.5rem;
+            }
+            
+            h3 {
+                font-size: 1.25rem;
+                margin-top: 1.25rem;
+            }
+    
+            hr {
+                background: transparent;
+                display: block;
+                width: 100%;
+                height: 1px;
+                visibility: visible;
+                border: none;
+                border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+            }
+            
+            @media only print {
+                img {
+                    max-height: 100vh;
+                    object-fit: contain;
+                }
+            }
+            
+            @page {
+                margin: 1in;
+            }
+            
+            p > .user {
+                opacity: 0.5;
+            }
+
+            .bookmark {
+                text-decoration: none;
+                max-height: 8em;
+                padding: 0;
+                display: flex;
+                align-items: stretch;
+            }
+            
+            .bookmark-title {
+                font-size: 0.85em;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                height: 1.75em;
+                white-space: nowrap;
+            }
+            
+            .bookmark-text {
+                display: flex;
+                flex-direction: column;
+            }
+            
+            .bookmark-info {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+            
+            .bookmark-image {
+                display: block;
+                position: relative;
+                object-fit: cover;
+                border-radius: 1px;
+            }
+            
+            .bookmark-description {
+                font-size: 0.75em;
+                overflow: hidden;
+                max-height: 4.5em;
+                word-break: break-word;
+            }
+            
+            .bookmark-href {
+                font-size: 0.75em;
+                margin-top: 0.25em;
+            }
+                
+            </style></head><body><article id="0cd5a114-fd77-44ca-bb5c-94951609ee42" class="page sans"><header></header><div class="page-body"><p id="5ce595bf-7ef1-4cdb-8b60-94da03462bd9" class="">
+            </p><figure id="ab2557a9-2eff-4690-ba12-f286ccbadd93"><a href="https://github.com/Hetp05/Word-Writer" class="bookmark source"><div class="bookmark-info"><div class="bookmark-text"><div class="bookmark-title">GitHub - Hetp05/Word-Writer: Word Writer is a simple light .txt/ plain text editor.</div><div class="bookmark-description">Warning This project might be perminatly closed, sorry Word Writer is a simple light .txt/ plain text editor. Download the .exe file as shown in the steps below. And start writing your srcipts and stuff. To download second and final version of Text-Writer.</div></div><div class="bookmark-href"></div></div><img src="https://opengraph.githubassets.com/a486d7c490a2c698ca99b26e09771ab05e25ca7a224dc88f9e929017315c766c/Hetp05/Word-Writer" class="bookmark-image"/></a></figure></div></article></body>
+    </div> -->
