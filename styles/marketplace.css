@@ -1,8 +1,8 @@
 @font-face {
     font-family: 'SF Pro Display';
+    src: url('assets/fonts/SF-Pro-Display-Regular.otf') format('Opentype');
     font-style: normal;
     font-weight: 400;
-    src: url('https://github.com/Hetp05/Personal-Asserts/blob/main/SF-Pro.otf') format('Opentype');
 }
 
 /*body */

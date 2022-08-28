@@ -1,8 +1,8 @@
 @font-face {
     font-family: 'SF Mono';
+    src: url(https://github.com/Hetp05/Personal-Asserts/blob/main/SF-Mono-Reguler.otf) format('otf');
     font-style: normal;
     font-weight: 400;
-    src: url(https://github.com/Hetp05/Personal-Asserts/blob/main/SF-Mono-Reguler.otf) format('otf');
 }
 
 body {
