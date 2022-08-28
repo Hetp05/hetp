@@ -2,14 +2,14 @@
   font-family: 'SF Pro Display';
   font-style: normal;
   font-weight: 400;
-  src: url(https://github.com/Hetp05/Personal-Asserts/blob/main/SF-Pro.otf) format('Opentype');
+  src: url('assets/fonts/SF-Pro.ttf') format('Opentype');
 }
 
 @font-face {
   font-family: 'SF Pro Rounded';
   font-style: normal;
   font-weight: 400;
-  src: url(https://github.com/Hetp05/Personal-Asserts/blob/main/SF-Pro-Rounded-Regular.otf) format('Opentype');
+  src: url('https://github.com/Hetp05/Personal-Asserts/blob/main/SF-Pro-Rounded-Regular.otf') format('Opentype');
 }
 
 header.header {
