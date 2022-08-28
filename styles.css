@@ -1,21 +1,22 @@
 @font-face {
   font-family: 'SF Pro Display';
+  src: url('assets/fonts/SF-Pro-Display-Regular.otf') format('Opentype');
   font-style: normal;
   font-weight: 400;
-  src: url('assets/fonts/SF-Pro-Display-Regular.otf') format('Opentype');
+  
 }
 
 @font-face {
   font-family: 'SF Pro Rounded';
+  src: url('https://github.com/Hetp05/Personal-Asserts/blob/main/SF-Pro-Rounded-Regular.otf') format('Opentype');
   font-style: normal;
   font-weight: 400;
-  src: url('https://github.com/Hetp05/Personal-Asserts/blob/main/SF-Pro-Rounded-Regular.otf') format('Opentype');
 }
 
 header.header {
   display: flex;
   align-items: center;
-  font-family: SF Pro Display;
+  font-family: 'SF Pro Display';
 }
 
 h1, h2 {
