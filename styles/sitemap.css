@@ -8,7 +8,7 @@
 
 @font-face {
     font-family: 'SF Mono';
-    src: url('fonts/SF-Mono-Regular.otf') format('otf');
+    src: url('fonts/SF-Mono-Regular.otf') format('OpenType');
     font-style: normal;
     font-weight: 400;
 }
