@@ -10,19 +10,19 @@
   font-family: 'SF Pro Display';
   font-style: normal;
   font-weight: 400;
-  src: url('assets/fonts/SF-Pro-Display-Regular.otf') format('Opentype');
+  src: url('styles/fonts/SF-Pro-Display-Regular.otf') format('Opentype');
 }
 
 @font-face {
   font-family: 'SF Pro Rounded';
   font-style: normal;
   font-weight: 400;
-  src: url('assets/fonts/SF-Pro-Rounded-Regular.otf') format('Opentype');
+  src: url('styles/fonts/assets/fonts/SF-Pro-Rounded-Regular.otf') format('Opentype');
 }
 
 @font-face {
   font-family: 'Pixy';
-  src: url('assets/fonts/OpenSansPX.ttf') format('truetype');
+  src: url('styles/fonts/assets/fonts/OpenSansPX.ttf') format('truetype');
   font-style: normal;
   font-weight: 400;
 }
