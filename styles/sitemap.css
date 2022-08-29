@@ -1,6 +1,14 @@
+/* 
+ File: sitemap.css
+ Created Date: Friday August 26th 2022
+ -----
+ Author: Hetp
+ Contact me: hetp0409@icloud.com
+*/ 
+
 @font-face {
     font-family: 'SF Mono';
-    src: url(https://github.com/Hetp05/Personal-Asserts/blob/main/SF-Mono-Reguler.otf) format('otf');
+    src: url('assets/fonts/SF-Mono-Regular.otf') format('otf');
     font-style: normal;
     font-weight: 400;
 }
