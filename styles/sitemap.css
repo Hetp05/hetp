@@ -7,6 +7,13 @@
 */ 
 
 @font-face {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    src: url('styles/fonts/SF-Pro-Display-Regular.otf') format('Opentype');
+}
+
+@font-face {
     font-family: 'SF Mono';
     src: url('https://github.com/Hetp05/Personal-Asserts/blob/main/SF-Mono-Regular.otf?raw=true') format('OpenType');
     font-style: normal;
@@ -35,4 +42,13 @@ code {
 
 hr.solid {
     border-top: 3px solid #bbb;
+}
+
+.version-link {
+    color: black;
+    text-decoration: none;
+}
+
+.version-dev {
+    font-family: 'SF Pro Display';
 }
