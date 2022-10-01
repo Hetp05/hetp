@@ -22,7 +22,7 @@
 
 @font-face {
   font-family: 'Pixy';
-  src: url('styles/fonts/OpenSansPX.ttf') format('truetype');
+  src: url('styles/fonts/OpenSansPX.ttf') format('Truetype');
   font-style: normal;
   font-weight: 400;
 }
@@ -44,7 +44,8 @@ h1, h2 {
   font-family: SF Pro Display;
   padding-top: 5px;
   padding-bottom: 5px;
-
+  padding-left: 10px;
+  padding-right: 10px;
   text-decoration: none;
 }
   
@@ -166,8 +167,8 @@ a {
 
 footer {
   font-family: 'SF Pro Display';
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .footer-links {
