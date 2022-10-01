@@ -8,6 +8,10 @@
 
 # Change Log
 
+## `3.1.1`
+
+« Fixed email link bug »
+
 ## `3.1.0`
 
 « Fixed margin, added fixed of visual bugs and added email link »
