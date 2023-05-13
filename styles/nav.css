@@ -8,7 +8,7 @@
 
 @font-face {
     font-family: 'SF Pro Display';
-    src: url('fonts/SF-Pro-Display-Regular.otf') format('Opentype');
+    src: url('/assets/fonts/SF-Pro-Display-Regular.woff2') format('woff2');
     font-style: normal;
     font-weight: 400;
 }

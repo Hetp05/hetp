@@ -1,0 +1,64 @@
+<!--  
+ File: xcode.html
+ Created Date: Sunday May 7th 2023
+ -----
+ Author: Het
+ Contact me: hetp0409@icloud.com
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Het's Xcode Theme</title>
+
+    <link rel="stylesheet" href="xcode.css">
+    <link rel="stylesheet" href="/styles/nav.css">
+
+</head>
+<body>
+
+    <header class="header">
+        <nav class="nav">
+            <li class="nav-bar"><a href="/sitemap/sitemap.html">􀂢</a></li>
+            <li class="nav-bar"><a href="/index.html">Portfolio</a></li>
+            <li class="nav-bar"><a href="/projects/projects.html">Projects</a></li>
+            <li class="nav-bar"><a href="#">Doc</a></li>
+            <li class="nav-bar"><a href="#">Contact</a></li>
+        </nav>
+    </header>
+
+    <center>
+        <h1>Xcode theme for VS Code</h1>
+        <a class="download" href="https://github.com/Hetp05/xcode-theme-for-vscode/releases/">Download</a>
+        <p>Make your vs code cleaner and more beautiful.</p>
+        <img class="screenshot" src="/assets/projects/xcode/Screenshot-14.webp" alt="screenshot" loading="lazy">
+    </center>
+
+    <h2 class="hidden">File Icons</h2>
+    <p class="hidden">It has very beautiful file icons.</p>
+    <center class="hidden"><img src="/assets/projects/xcode/Screenshot-5.webp" alt="" class="screenshot" loading="lazy"></center>
+
+    <h2 class="hidden">Folder Icons</h2>
+    <p class="hidden">Great folder icons too..!!</p>
+    <center class="hidden"><img src="/assets/projects/xcode/Screenshot-8.webp" alt="" class="screenshot" loading="lazy"></center>
+
+    <script>
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry) =>{
+                console.log(entry)
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('show');
+                } else {
+                    entry.target.classList.remove('show');
+                }
+            });
+        }
+        );
+        const hiddenElements = document.querySelectorAll('.hidden');
+        hiddenElements.forEach((el) => observer.observe(el));
+    </script>
+</body>
+</html>

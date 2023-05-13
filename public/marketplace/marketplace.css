@@ -1,0 +1,234 @@
+/* 
+ File: marketplace.css
+ Created Date: Monday August 22nd 2022
+ -----
+ Author: Hetp
+ Contact me: hetp0409@icloud.com
+*/ 
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('/assets/fonts/SF-Pro-Display-Regular.otf') format('Opentype');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'SF Pro Rounded';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/assets/fonts/SF-Pro-Rounded-Regular.otf') format('Opentype');
+}
+
+/*body */
+
+hr.solid {
+  border-top: 3px solid #bbb;
+  margin-top: 25px;
+}
+
+.img-nft {
+  height: 150px;
+  width: 150px;
+  display: flex;
+  margin-top: 25px;
+}
+
+h1, h2 {
+  font-family: 'SF Pro Rounded';
+  padding-top: 10px;
+  color: white;
+}
+
+p {
+  font-family: 'SF Pro Display';
+  color: #b2becd;
+}
+
+.nft {
+  grid-row: auto;
+}
+
+.get-button {
+  border-radius: 14px;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'SF Pro Display';
+  color: #FFFFFF;
+  background-color: rgb(49, 167, 196);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.p-titile {
+  font-size: 20px;
+  font-family: 'SF Pro Display';
+}
+
+details {
+  font-family: 'SF Pro Display';
+  padding-bottom: 25px;
+  color: #b2becd;
+
+}
+
+body {
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #12181b;
+}
+
+a {
+  padding-top: 5px;
+  text-decoration: none;
+  color: black;
+}
+
+.free {
+  color: #bbb;
+}
+
+/* Footer Section */
+
+.footer {
+  margin-top: 10px;
+  font-family: 'SF Pro Display';
+  background-color: #12181b;
+}
+
+footer {
+  font-family: 'SF Pro Display';
+}
+
+.copyright-link {
+  color:#737373;
+}
+
+.footer-links {
+  padding-left: 0;
+  list-style: none;
+}
+
+.footer-links li {
+  display: block;
+}
+
+.footer-links a {
+  color: #737373;
+}
+
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover {
+  color: #06c;
+  text-decoration: none;
+}
+
+.footer-links.inline li {
+  display: inline-block;
+}
+
+.site-footer .social-icons {
+  text-align: right;
+}
+
+.site-footer .social-icons a {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: 6px;
+  margin-right: 0;
+  border-radius: 100%;
+}
+
+.copyright-text {
+  margin: 0;
+}
+
+.social-icons {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin-bottom: 4px;
+}
+
+.social-icons li.title {
+  margin-right: 15px;
+  text-transform: uppercase;
+  color: #96a2b2;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.social-icons a {
+  background-color: #1b2429;
+  color: #818a91;
+  font-size: 16px;
+  display: inline-block;
+  line-height: 44px;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  margin-right :8px;
+  border-radius: 100%;
+  -webkit-transition: all .2s linear;
+  -o-transition: all .2s linear;
+  transition: all .2s linear;
+}
+
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover {
+  color: #fff;
+  background-color: #29aafe;
+}
+
+.social-icons.size-sm a {
+  line-height: 34px;
+  height: 34px;
+  width: 34px;
+  font-size: 14px;
+}
+
+.social-icons a.facebook:hover {
+  background-color: red;
+}
+
+.social-icons a.twitter:hover {
+  background-color :#00aced;
+}
+
+.social-icons a.linkedin:hover {
+  background-color: #007bb6;
+}
+
+.social-icons a.dribbble:hover {
+  background-color: #ea4c89;
+}
+
+@media (max-width:767px) {
+  .social-icons li.title {
+    display: block;
+    margin-right: 0;
+    font-weight: 600;
+  }
+}
+
+.horizontal-scrollable > .row {
+  overflow-x: auto;
+  white-space: nowrap;
+        
+}
+
+.horizontal-scrollable > .row > .imag-row {
+  display: inline-block;
+  float: none;
+        padding-left: 20px;
+}
+
+.header {
+  color: white;
+}
