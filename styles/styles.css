@@ -13,12 +13,12 @@
   src: url('/assets/fonts/SF-Pro-Display-Regular.woff2') format('woff2');
 }
 
-/* @font-face {
+@font-face {
   font-family: 'SF Pro Rounded';
   font-style: normal;
   font-weight: 400;
   src: url('/assets/fonts/SF-Pro-Rounded-Regular.woff2') format('woff2');
-} */
+}
 
 header.header {
   display: flex;
@@ -33,7 +33,7 @@ h1, h2 {
 /* Header Section */
 
 .about-me-section {
-  background-color: rgb(49, 167, 196);
+  background-color: #2973bc;
   font-family: SF Pro Display;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -47,18 +47,14 @@ hr.solid {
 }
 
 .welcome {
-  /* background-image: url(https://media4.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif); */
-  background-image: url(/assets/blog-pics/DSC01940.webp) ;
-  /* background-image: url(/assets/my-pic.jpg); */
+  background-image: url(/assets/blog-pics/DSC01940.webp);
   background-size: cover;
   background-position: right;
-  height: 300px;
-  /* max-width: 1000px; */
-  background-repeat: no-repeat;
 }
 
 .welcome-text {
   padding: 50px;
+  height: 300px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -73,8 +69,6 @@ hr.solid {
   padding-left: 10px;
   padding-right: 10px;
   font-family: 'SF Pro Display';
-
-  /* min-height: 100vh; */
 }
 
 .cc{
@@ -82,16 +76,24 @@ hr.solid {
   font-size: 10px;
 }
 
+.real-lang {
+  color: #2566a7;
+}
+
+.dis-lang {
+  display: inline;
+}
+
 /* Projects Section */
 
 .check-list {
   font-family: 'SF Pro Display';
-  color: green;
+  color: #32d74b;
 }
 
 .not-check-list {
   font-family: 'SF Pro Display';
-  color: red;
+  color: #ff453a;
 }
 
 .normal-link {
@@ -112,19 +114,17 @@ hr.solid {
 /* Contacts Section */
 
 .contacts-section {
-  background-color: rgb(49, 167, 196);
+  background-color: #2973bc;
   font-family: 'SF Pro Display';
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 10px;
   padding-right: 10px;
   text-decoration: none;
-
-  min-height: 100vh;
 }
 
 .youtube-icon {
-  color: red;
+  color: black;
   text-decoration: none;
 }
 
@@ -148,13 +148,17 @@ img {
 
 a {
   text-decoration: none;
-  color: black;
+  color: #060f19;
 }
 
 .heading-link {
   text-decoration: none;
-  color: black;
+  color: #060f19;
   font-size: 25px;
+}
+
+body {
+  background-color: #eaf2fa;
 }
 
 /* New Section*/
@@ -168,7 +172,7 @@ a {
 .news-text {
   padding-bottom: 20px;
   font-family: 'SF Pro Display';
-  color: #06c;
+  color: #f7fafd;
 }
 
 .blog-img {
@@ -176,124 +180,6 @@ a {
   max-height: 80%;
   object-fit: cover;
   padding-bottom: 20px;
-}
-
-/* Footer Section */
-
-footer {
-  font-family: 'SF Pro Display';
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-.footer-links {
-  padding-left: 0;
-  list-style: none;
-}
-
-.footer-links li {
-  display: block;
-}
-
-.footer-links a {
-  color: #737373;
-}
-
-.footer-links a:active,.footer-links a:focus,.footer-links a:hover {
-  color: #06c;
-  text-decoration: none;
-}
-
-.footer-links.inline li {
-  display: inline-block;
-}
-
-.site-footer .social-icons {
-  text-align: right;
-}
-
-.site-footer .social-icons a {
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
-  margin-left: 6px;
-  margin-right: 0;
-  border-radius: 100%;
-}
-
-.copyright-text {
-  margin: 0;
-}
-
-.social-icons {
-  padding-left: 0;
-  margin-bottom: 0;
-  list-style: none;
-}
-
-.social-icons li {
-  display: inline-block;
-  margin-bottom: 4px;
-}
-
-.social-icons li.title {
-  margin-right: 15px;
-  text-transform: uppercase;
-  color: #96a2b2;
-  font-weight: 700;
-  font-size: 13px;
-}
-
-.social-icons a {
-  background-color: #eceeef;
-  color: #818a91;
-  font-size: 16px;
-  display: inline-block;
-  line-height: 44px;
-  width: 44px;
-  height: 44px;
-  text-align: center;
-  margin-right :8px;
-  border-radius: 100%;
-  -webkit-transition: all .2s linear;
-  -o-transition: all .2s linear;
-  transition: all .2s linear;
-}
-
-.social-icons a:active,.social-icons a:focus,.social-icons a:hover {
-  color: #fff;
-  background-color: #29aafe;
-}
-
-.social-icons.size-sm a {
-  line-height: 34px;
-  height: 34px;
-  width: 34px;
-  font-size: 14px;
-}
-
-.social-icons a.facebook:hover {
-  background-color: red;
-}
-
-.social-icons a.twitter:hover {
-  background-color :#00aced;
-}
-
-.social-icons a.linkedin:hover {
-  background-color: #007bb6;
-}
-
-.social-icons a.github:hover {
-  background-color: #ea4c89;
-}
-
-@media (max-width:767px) {
-  .social-icons li.title {
-    display: block;
-    margin-right: 0;
-    font-weight: 600;
-  }
 }
 
 /* Animation */
@@ -344,12 +230,4 @@ footer {
   opacity: 1;
   filter: blur(0);
   transform: translateX(0);
-}
-
-.real-lang {
-  color: #06c;
-}
-
-.dis-lang {
-  display: inline;
 }

@@ -1,0 +1,8 @@
+
+Primary: #060f19 (RGB: 6, 15, 25)
+Secondary: #eaf2fa (RGB: 234, 242, 250)
+Primary Button: #2973bc (RGB: 41, 115, 188)
+Secondary Button: #f7fafd (RGB: 247, 250, 253)
+Accent: #2566a7 (RGB: 37, 102, 167)
+
+https://realtimecolors.com/?colors=060f19-eaf2fa-2973bc-f7fafd-2566a7

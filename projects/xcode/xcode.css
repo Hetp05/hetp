@@ -28,6 +28,10 @@ body {
   background-color: rgba(90, 196, 234, 0.5);
 }
 
+img {
+  border-radius: 20px;
+}
+
 p {
   font-family: 'SF Pro Display';
 }
