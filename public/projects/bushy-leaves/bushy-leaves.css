@@ -1,6 +1,6 @@
 /* 
- File: xcode.css
- Created Date: Sunday May 7th 2023
+ File: bushy-leaves.css
+ Created Date: Sunday June 4th 2023
  -----
  Author: Het
  Contact me: hetp0409@icloud.com
@@ -25,11 +25,13 @@ h1, h2 {
 }
 
 body {
-  background-color: rgba(90, 196, 234, 0.5);
+  background-color: rgba(93, 209, 126, 0.5);
 }
 
 img {
   border-radius: 20px;
+  height: 65%;
+  width: 65%;
 }
 
 p {

@@ -3,7 +3,7 @@
         {
             "language": "html",
             "scheme": "file",
-            "pattern": "index1.html"
+            "pattern": "index.html"
         }
     ]
 }

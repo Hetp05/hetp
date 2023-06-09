@@ -9,7 +9,7 @@
 @font-face {
   font-family: 'SF Pro Display';
   font-style: normal;
-  font-weight: 400;    
+  font-weight: 400;
   src: url('/assets/fonts/SF-Pro-Display-Regular.woff2') format('woff2');
 }
 
@@ -33,17 +33,18 @@ h1, h2 {
 .horizontal-scrollable > .row > .imag-row {
   display: inline-block;
   float: none;
-    padding-left: 20px;
+  padding-left: 20px;
 }
 
 p {
   font-family: 'SF Pro Display';
 }
 
-/* body {
+body {
   margin-left: 20px;
   margin-right: 20px;
-} */
+  background-color: #eaf2fa;
+}
 
 a {
   padding-top: 5px;
@@ -54,25 +55,35 @@ a {
 /* Project Themes */
 
 .xcode-theme {
-    background-color: rgba(90, 196, 234, 0.5);
-    border-radius: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+  background-color: rgba(90, 196, 234, 0.5);
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.minecraft-theme {
+  background-color: rgba(93, 209, 126, 0.5);
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .project-image {
-    width: 96px;
+  width: 96px;
+  border-radius: 25%;
 }
 
 .project-link {
-    color: #06c;
+  color: #06c;
 }
 
 /* .project-content {
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 } */

@@ -8,6 +8,10 @@
 
 # Change Log
 
+## `4.2.0`
+
+« Added new project section + fixed some links not working »
+
 ## `4.1.0`
 
 « Added Github link at footer and change the color scheme »

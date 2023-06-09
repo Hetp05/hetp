@@ -15,13 +15,14 @@
 
 @font-face {
     font-family: 'SF Mono';
-    src: url('https://github.com/Hetp05/Personal-Asserts/blob/main/SF-Mono-Regular.otf?raw=true') format('OpenType');
+    src: url('/assets/fonts/SF-Mono-Regular.woff2') format('woff2');
     font-style: normal;
     font-weight: 400;
 }
 
 body {
     padding-top: 30px;
+    background-color: #eaf2fa;
 }
 
 .sitemap-link {
