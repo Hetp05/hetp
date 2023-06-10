@@ -9,7 +9,7 @@
 @font-face {
   font-family: 'SF Pro Display';
   font-style: normal;
-  font-weight: 400;    
+  font-weight: 400;
   src: url('/assets/fonts/SF-Pro-Display-Regular.woff2') format('woff2');
 }
 
@@ -17,7 +17,7 @@
   font-family: 'SF Pro Rounded';
   font-style: normal;
   font-weight: 400;
-  src: url('/assets/fonts/SF-Pro-Rounded-Regular.woff2') format('woff2');
+  src: url('https://github.com/Hetp05/Personal-Asserts/raw/main/fonts/SF-Pro-Rounded-Regular.woff2') format('woff2');
 }
 
 header.header {
@@ -82,6 +82,10 @@ hr.solid {
 
 .dis-lang {
   display: inline;
+}
+
+.lang {
+  height: 200px;
 }
 
 /* Projects Section */
@@ -186,6 +190,7 @@ body {
 
 .langs{
   display: flex;
+  
 }
 
 .lang:nth-child(2){

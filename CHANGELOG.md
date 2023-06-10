@@ -8,6 +8,14 @@
 
 # Change Log
 
+## `4.0.2`
+
+« Added missing fonts »
+
+## `4.0.1`
+
+« Better performance »
+
 ## `4.2.0`
 
 « Added new project section + fixed some links not working »
