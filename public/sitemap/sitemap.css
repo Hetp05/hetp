@@ -15,7 +15,7 @@
 
 @font-face {
     font-family: 'SF Mono';
-    src: url('https://github.com/Hetp05/Personal-Asserts/raw/main/fonts/SF-Mono-Regular.woff2') format('woff2');
+    src: url('/assets/fonts/SF-Pro-Rounded-Regular.woff2') format('woff2');
     font-style: normal;
     font-weight: 400;
 }

@@ -8,6 +8,10 @@
 
 # Change Log
 
+## `4.1.0`
+
+« Added functional contact me section »
+
 ## `4.0.2`
 
 « Added missing fonts »
