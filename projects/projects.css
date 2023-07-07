@@ -25,6 +25,7 @@ h1, h2 {
 }
 
 /* Image Gallary */
+
 .horizontal-scrollable > .row {
   overflow-x: auto;
   white-space: nowrap;
@@ -44,6 +45,7 @@ body {
   margin-left: 20px;
   margin-right: 20px;
   background-color: #eaf2fa;
+  font-size: 20px;
 }
 
 a {
@@ -80,10 +82,3 @@ a {
 .project-link {
   color: #06c;
 }
-
-/* .project-content {
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-} */

@@ -25,7 +25,8 @@ h1, h2 {
 }
 
 body {
-  background-color: rgba(93, 209, 126, 0.5);
+  background-color: #5dd17e80;
+  font-size: 20px;
 }
 
 img {

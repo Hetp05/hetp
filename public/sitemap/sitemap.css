@@ -23,11 +23,10 @@
 body {
     padding-top: 30px;
     background-color: #eaf2fa;
+    font-size: 20px;
 }
 
 .sitemap-link {
-    /* padding-left: 50%;
-    padding-right: 50%; */
     font-family: 'SF Mono';
     color: #06c;
 }

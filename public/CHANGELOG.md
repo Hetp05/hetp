@@ -8,6 +8,10 @@
 
 # Change Log
 
+## `4.2.0`
+
+« Made fonts bigger »
+
 ## `4.1.0`
 
 « Added functional contact me section »

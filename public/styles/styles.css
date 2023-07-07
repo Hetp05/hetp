@@ -64,10 +64,6 @@ hr.solid {
 }
 
 .Welcome-section {
-  /* padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 10px;
-  padding-right: 10px; */
   font-family: 'SF Pro Display';
 }
 
@@ -82,6 +78,7 @@ hr.solid {
 
 .dis-lang {
   display: inline;
+  color: #060f19;
 }
 
 .lang {
@@ -118,13 +115,14 @@ hr.solid {
 /* Contacts Section */
 
 .contacts-section {
-  /* background-color: #2973bc; */
   font-family: 'SF Pro Display';
+  background-color: #2973bc;
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 10px;
   padding-right: 10px;
   text-decoration: none;
+
 }
 
 .youtube-icon {
@@ -138,6 +136,11 @@ hr.solid {
   color: rgb(0, 0, 0);
 }
 
+form {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
 .input-name, .input-email, textarea {
   background: #FFFFFF;
   border: 0.5px solid rgba(0, 0, 0, 0.08);
@@ -145,21 +148,20 @@ hr.solid {
   outline-color: #007AFF80;
   width: 206px;
   height: 22px;
+  /* padding-top: 15px; */
   font-family: 'SF Pro Display';
   margin-top: 10px;
+  font-size: 20px;
 }
 
 button {
   border-radius: 5px;
-  background-color: #2973bc;
+  background-color: #06c;
   color: white;
   border-color: #2973bc;
   font-family: 'SF Pro Display';
+  font-size: 20px;
 }
-
-/* .contect-heading {
-  background-color: #2973bc;
-} */
 
 /* Etc.. */
 
@@ -186,6 +188,7 @@ a {
 
 body {
   background-color: #eaf2fa;
+  font-size: 20px;
 }
 
 /* New Section*/
@@ -238,7 +241,20 @@ body {
 
 @media only screen and (max-width: 600px) {
   .hidden {
-    margin-left: 00px;
+    padding-left: 00px;
+  }
+}
+
+.screenshot{
+  border-radius: 25px; 
+  width: 50%; 
+  height: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+  .screenshot {
+    width: 100%; 
+    height: 100%;
   }
 }
 

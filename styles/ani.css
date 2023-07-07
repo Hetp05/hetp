@@ -27,11 +27,11 @@
   transition: all 1s;
 }
 
-/* @media(prefers-reduced-motion) {
+@media(prefers-reduced-motion) {
   .hidden {
     transition: none;
   }
-} */
+}
 
 .show {
   opacity: 1;
